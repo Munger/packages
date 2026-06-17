@@ -1,0 +1,139 @@
+Package: mikro-common
+Architecture: all
+Version: 0.1.1-1
+Priority: optional
+Section: python
+Maintainer: Tim Hosking
+Installed-Size: 72
+Depends: python3-librouteros (>= 3.1.0), python3-yaml (>= 6.0), python3:any
+Filename: ./main/m/mikro-common/mikro-common_0.1.1-1_all.deb
+Size: 11638
+MD5sum: 06e1d57f36c0ec4ebbd50604bb421110
+SHA1: e0b213adf04773fe85b0315aef11dc0b82e2d026
+SHA256: e7ad25719de5b73587c3213c1ac58c5ed3ba7ed310ecaa2e5123855350e291d3
+SHA512: daf24c61e5ec83735f0b42c458c04e8947fbeb36e3aab8f6252034986205d0797f05207c8412e45b3fd7bbeca19be57cd7d3ae323b17341a8c64e2f9d701cf2a
+Homepage: https://github.com/munger/mikro-manager
+Description: Shared library for MikroTik RouterOS API access
+ Mikro Common provides a shared library for managing MikroTik routers
+ via the RouterOS API. It includes connection management, configuration
+ file handling, and common utilities used by other mikro-manager tools.
+
+Package: mikro-dns
+Architecture: all
+Version: 0.1.1-1
+Priority: optional
+Section: python
+Maintainer: Tim Hosking
+Installed-Size: 45
+Depends: mikro-common (>= 0.1.0), python3:any
+Filename: ./main/m/mikro-dns/mikro-dns_0.1.1-1_all.deb
+Size: 7918
+MD5sum: 72a43917d272cfd52098878e1a9ad524
+SHA1: 8b6368f6cb23d1b275f05722f9d4eeba9ae4618a
+SHA256: ffbe473eced47f1eafd3d9f120faf3c84c9450112ac14a399fcea822f73ceb73
+SHA512: b26e3644486c8f781245f974d1346f539400e361a21dbca1ec7d39557c9daa2115117803ee099e8cba2558509271015cb6b38a363cf2ffb8bcabcd60eb8512b4
+Homepage: https://github.com/munger/mikro-manager
+Description: DNS static entry management for MikroTik routers
+ Mikro DNS provides comprehensive DNS management for MikroTik routers
+ via the RouterOS API. Features include:
+  * List, add, update, delete DNS entries
+  * Support for all record types (A, AAAA, CNAME, MX, TXT, NS, SRV, etc.)
+  * Search with wildcards
+  * Enable/disable entries
+  * Validate for conflicts
+  * Import/export (JSON/CSV)
+  * Auto-register servers
+
+Package: mirror-dedupe
+Architecture: all
+Version: 0.2.11-1
+Priority: optional
+Section: admin
+Maintainer: Tim Hosking <tim@mungerware.com>
+Installed-Size: 190
+Depends: python3-yaml, python3:any, curl, rsync, gpg
+Filename: ./main/m/mirror-dedupe/mirror-dedupe_0.2.11-1_all.deb
+Size: 41948
+MD5sum: 7280a53e85346c12b2aa9b2dfa0fa1be
+SHA1: 0a50dd47e67056e99460046d4bdd58d0d0fa5f80
+SHA256: 349d6b45d6d75eec44bc3cdab4dce0ae3e2ec0078b945a7353b8a34af49e1d7b
+SHA512: 61b49b3667d9835d031b3cbf1b8e5cd415d54b8edb692bc1eb562ef5f5200d532a692109eb36153e07c30782aa5072aaeedff5394d7986909c0d2b9c1ca933c6
+Homepage: https://github.com/munger/mirror-dedupe
+Description: Mirror synchronisation with intelligent deduplication
+ Downloads from upstream and hardlinks duplicate files (same SHA256 hash)
+ to save bandwidth and disk space. Supports multiple mirrors with global
+ deduplication across all mirrors.
+ .
+ Features:
+  - Uses curl for duplicate files, rsync for unique files and metadata
+  - Configurable via YAML files
+  - Systemd timer support for automated synchronisation
+
+Package: mirror-dedupe
+Architecture: all
+Version: 0.2.4-1
+Priority: optional
+Section: admin
+Maintainer: Tim Hosking <tim@mungerware.com>
+Installed-Size: 121
+Depends: python3-yaml, python3:any, curl, rsync
+Filename: ./main/m/mirror-dedupe/mirror-dedupe_0.2.4-1_all.deb
+Size: 24160
+MD5sum: 6b3ec63bea0ee6d4d7e46ee71af5b7d4
+SHA1: e8c31038639371cb4914bc60d545e44185832040
+SHA256: 559397c37ac04a284513f5cdd698da425eed1cfe07df7f1509e6078042b3b795
+SHA512: e1a89c805e3f3524049545c2980dd3a27d3f0e21c805a59683e1e5a1f501a382b3b66c2cb703567657a4556b7e0d1860864e723a2b76b9622a08875d1dc8da77
+Homepage: https://github.com/munger/mirror-dedupe
+Description: Mirror synchronisation with intelligent deduplication
+ Downloads from upstream and hardlinks duplicate files (same SHA256 hash)
+ to save bandwidth and disk space. Supports multiple mirrors with global
+ deduplication across all mirrors.
+ .
+ Features:
+  - Uses curl for duplicate files, rsync for unique files and metadata
+  - Configurable via YAML files
+  - Systemd timer support for automated synchronisation
+
+Package: mirror-dedupe
+Architecture: all
+Version: 0.2.9-1
+Priority: optional
+Section: admin
+Maintainer: Tim Hosking <tim@mungerware.com>
+Installed-Size: 180
+Depends: python3-yaml, python3:any, curl, rsync, gpg
+Filename: ./main/m/mirror-dedupe/mirror-dedupe_0.2.9-1_all.deb
+Size: 39538
+MD5sum: 69b7fbeea31585f972f566a39de4bfee
+SHA1: b83c5fd08836621aae23c3a713f4dc10dfe9b151
+SHA256: 92b1d9cb3afb0b8ca0becfe194d5363c8002009b1b7559f95242ec175cf7bcaf
+SHA512: 3a7bad2e1b963e5852be5eca4585563fa193bf862bcc58f4da8d332125fb01ccc5a1a305ca8c2194dad356c3d3989e22476aed95122f12c9f8cb9442c7252137
+Homepage: https://github.com/munger/mirror-dedupe
+Description: Mirror synchronisation with intelligent deduplication
+ Downloads from upstream and hardlinks duplicate files (same SHA256 hash)
+ to save bandwidth and disk space. Supports multiple mirrors with global
+ deduplication across all mirrors.
+ .
+ Features:
+  - Uses curl for duplicate files, rsync for unique files and metadata
+  - Configurable via YAML files
+  - Systemd timer support for automated synchronisation
+
+Package: munger-pxeboot
+Architecture: all
+Version: 1.0-1
+Priority: optional
+Section: admin
+Maintainer: Tim Hosking <tim@mungerware.com>
+Installed-Size: 11
+Depends: ipmitool | efibootmgr
+Filename: ./main/m/munger-pxeboot/munger-pxeboot_1.0-1_all.deb
+Size: 2228
+MD5sum: b1d05d2a4687651094711d94801c4f7a
+SHA1: c93a9a76acb14f2ad646cb2e2e9a0e8cd0328aa3
+SHA256: f087553cd5548fd5230886f5ee91277073b8dee569df5443e1139407b710ec40
+SHA512: 67ec5f02ea40fe6b90bbc61f96ca84a401a3d387012177204eaa838c8a5e0e8864b65d44aa710da2d9fe008b1926b2dad9670d13368a4003656aedf56a8a0bcf
+Description: Set next boot to PXE and reboot
+ Utility that sets the system to PXE boot on next restart.
+ Supports ipmitool (preferred) and efibootmgr fallback.
+
