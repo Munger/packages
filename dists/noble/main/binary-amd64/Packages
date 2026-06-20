@@ -6,7 +6,7 @@ Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
 Installed-Size: 190
 Depends: python3-yaml, python3:any, curl, rsync, gpg
-Filename: ./main/m/mirror-dedupe/mirror-dedupe_0.2.11-1_all.deb
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_0.2.11-1_all.deb
 Size: 41948
 MD5sum: 7280a53e85346c12b2aa9b2dfa0fa1be
 SHA1: 0a50dd47e67056e99460046d4bdd58d0d0fa5f80
@@ -31,7 +31,7 @@ Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
 Installed-Size: 121
 Depends: python3-yaml, python3:any, curl, rsync
-Filename: ./main/m/mirror-dedupe/mirror-dedupe_0.2.4-1_all.deb
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_0.2.4-1_all.deb
 Size: 24160
 MD5sum: 6b3ec63bea0ee6d4d7e46ee71af5b7d4
 SHA1: e8c31038639371cb4914bc60d545e44185832040
@@ -56,7 +56,7 @@ Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
 Installed-Size: 180
 Depends: python3-yaml, python3:any, curl, rsync, gpg
-Filename: ./main/m/mirror-dedupe/mirror-dedupe_0.2.9-1_all.deb
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_0.2.9-1_all.deb
 Size: 39538
 MD5sum: 69b7fbeea31585f972f566a39de4bfee
 SHA1: b83c5fd08836621aae23c3a713f4dc10dfe9b151
